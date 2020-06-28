@@ -3,7 +3,10 @@ Simple communication between usermode and kernel.
 
 # How to run
 1. Install and setup a virtual machine, for example: VMware
-2. Enable `Virtualize Intel VT-x/EPT or AMD-V/RVI` feature
+2. Enable `Virtualize Intel VT-x/EPT or AMD-V/RVI`
+
+![Virtual Machine Settings](/screenshots/settings.png)
+
 3. If your driver is not signed, you should enable test mode: `bcdedit /set testsigning on`
 4. Use [OSR Loader](osronline.com) to load the kernel driver
 5. Open the usermode application and that's it
