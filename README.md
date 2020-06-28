@@ -20,6 +20,12 @@ If you decide to use WinDbg, follow the following steps: https://docs.microsoft.
 
 # DbgView
 
-In case you want to use DbgView, you have to create the following registry key: `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter`. Add a new DWORD value `DEFAULT` and set its Data field to `0xF`. You can then open DbgView, enable `Capture Kernel` and `Pass-Through options` under Capture and then restart DbgView. It's done.
+In case you want to use DbgView:
+
+1. Create the following registry key: `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter`
+2. Add a new DWORD value `DEFAULT` and set its Data field to `0xF`
+3. Open DbgView and enable `Capture Kernel` and `Pass-Through` under Capture
+4. Restart DbgView
+5. Done
 
 ![DbgView settings](/screenshots/dbgview-settings.png)
