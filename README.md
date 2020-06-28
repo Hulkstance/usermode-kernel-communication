@@ -1,5 +1,5 @@
 # Usermode Kernel Communication
-Simple communication between usermode and kernel
+Simple communication between usermode and kernel.
 
 # How to run
 1. Install and setup a virtual machine, for example: VMware
